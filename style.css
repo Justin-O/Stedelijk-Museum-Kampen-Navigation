@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    font-size: 24px;
+    background: rgb(133, 163, 72);
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: solid 5px #fff;
+    max-width: 20em;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: olivedrab;
+    border: solid 5px rgb(80, 80, 80);
+}
+
+.sub button {
+    background: rgb(101, 101, 182);
+}
+
+.sub button:hover {
+    background: rgb(113, 150, 160);
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.home {
+    background: rgb(141, 71, 190)!important;
+}
+
+.home:hover {
+    background: indigo!important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 3em;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
